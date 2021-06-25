@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-environ = "*"
+djangorestframework-simplejwt = "*"
+drf-yasg = "*"
+django-cors-headers = "*"
+faker = "*"
+model-bakery = "*"
+coverage = "*"
+pytest-django = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
