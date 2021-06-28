@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'corsheaders',
     # Local
     'authentication',
+    'course'
 ]
 
 SITE_ID = 2
@@ -122,7 +123,7 @@ REST_FRAMEWORK = {
 }
 
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': datetime.timedelta(minutes=5),
+    'ACCESS_TOKEN_LIFETIME': datetime.timedelta(days=5), # CHANGE to 5 minutes after when debug is ok
     'REFRESH_TOKEN_LIFETIME': datetime.timedelta(days=1),
 }
 

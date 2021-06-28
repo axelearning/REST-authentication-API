@@ -19,6 +19,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # Local
     path('api/auth/', include('authentication.urls')),
+    path('api/course/', include('course.urls')),
     # 3rd party
     path('', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('browsableAPI-auth/', include('rest_framework.urls')),
