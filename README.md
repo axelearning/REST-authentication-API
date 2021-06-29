@@ -5,10 +5,7 @@
 - une vérification par email lors de la création d'un compte
 - une réinitialisation de mot de passe par email
 
-<p align="center">
-  <img src="./img/why.png" alt="Bundle Analyzer example" width="650">
-</p>
-
+![Shallow Backup GIF Demo](img/shallow-backup-demo.gif)
 
 
 ## Qu'est ce que j'ai appris **?**
