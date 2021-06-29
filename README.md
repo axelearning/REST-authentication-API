@@ -12,7 +12,7 @@
 <br>
 
 
-## Qu'est ce que j'ai appris **?**
+## Qu'est ce que j'ai appris ?
 
 - **Création d'un rest API,** en utilisant le framwork`Django` 
 - **Mise en place d'un système de permissions,** à l'aide du standard `Json Web Token (JWT)`
