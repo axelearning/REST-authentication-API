@@ -1,4 +1,4 @@
-relase: python manage.py makemigrations --no-input
-relase: python manage.py migrate --no-input
+relase: python manage.py makemigrations 
+relase: python manage.py migrate 
 
 web: gunicorn leadmanager.wsgi
