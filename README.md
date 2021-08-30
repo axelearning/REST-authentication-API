@@ -1,27 +1,27 @@
-# Rest API avec Django 
-à travers ce projet j'ai implémenté un `REST API` qui permet de gérer l'authentification et les permissions des utilisateurs. En coulisse, le système d’autorisation a été mis en oeuvre en utilisant le standard [JWT: Json Web Token](https://jwt.io/introduction).  L'API comprend également:
+# Rest API: manage user authentication
+Through this project I built a `REST API` to manage users’ authentication and permissions. Behind the scenes, the authorization system was implemented using the [JWT: Json Web Token] standard (https://jwt.io/introduction).  The API also includes:
 
-- une vérification par email lors de la création d'un compte
-- une réinitialisation de mot de passe par email
-- l'implémentation d'un système de permissions qui dépendra du statut de l'utilisateur 
+- email verification upon account creation
+- password reset via email
+- permissions system that will depend on the user's status 
 
 <h3 align="left">
   <span>👉 </span>
-  <a href="https://rest-api-auth-app.herokuapp.com">tester l'api</a>
+  <a href="https://rest-api-auth-app.herokuapp.com">testing the api</a>
 </h3>
 <br>
 <p align="center">
-  <img src="img/api_graph.png" alt="organigramme de l'API" width="600">
+  <img src="img/api_graph.png" alt="API flowchart" width="600">
 </p>
 <br>
 
 
-## Qu'est ce que j'ai appris ?
-- **Création d'un rest API,** en utilisant le framwork`Django` 
-- **Mise en place d'un système de permissions,** à l'aide du standard `Json Web Token (JWT)`
-- **Remaniement du code,** en appliquant les méthodes apprises dans le livre [Clean code](https://www.amazon.fr/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-- **Mise en place d'un développement piloté par les tests**
+## What did I learn?
+- **Create a REST API,** using the`Django` framwork. 
+- **Design a permissions system,** using the `Json Web Token (JWT)` standard.
+- **Write clean code,** applying the methods learned in the book [Clean code](https://www.amazon.fr/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+- **test driven development**
 <br>
 
-## Pourquoi ce projet ?
-Entre novembre 2020 et Juin 2021 j'ai co-créé une startup qui avait pour objectif de simplifier la création et la gestion de cours pour les enseignants. Cette portion d'API est l'une des briques de ce projet: une plateforme éducative à destination des élèves et des professeurs. 
+## Why this project?
+Between November 2020 and June 2021 I co-funded a startup that aimed to simplify course creation and management for teachers. This API portion is one of the building blocks of this project: an educational platform for students and teachers. 
