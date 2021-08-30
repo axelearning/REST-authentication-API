@@ -7,7 +7,7 @@ Through this project I built a `REST API` to manage users’ authentication and 
 
 <h3 align="left">
   <span>👉 </span>
-  <a href="https://rest-api-auth-app.herokuapp.com">testing the api</a>
+  <a href="https://rest-api-auth-app.herokuapp.com">Test the API</a>
 </h3>
 <br>
 <p align="center">
@@ -20,7 +20,7 @@ Through this project I built a `REST API` to manage users’ authentication and 
 - **Create a REST API,** using the`Django` framwork. 
 - **Design a permissions system,** using the `Json Web Token (JWT)` standard.
 - **Write clean code,** applying the methods learned in the book [Clean code](https://www.amazon.fr/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-- **test driven development**
+- **Test driven development**
 <br>
 
 ## Why this project?
