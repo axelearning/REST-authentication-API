@@ -1,4 +1,4 @@
-# PythonOOP
+# PythonOOP 🐍
 
 write clean object oriented code according to some key principles
 
