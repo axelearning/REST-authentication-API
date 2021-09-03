@@ -19,8 +19,8 @@ Through this project I built a `REST API` to manage users’ authentication and 
 ## What did I learn?
 - **Create a REST API,** using the`Django` framwork. 
 - **Design a permissions system,** using the `Json Web Token (JWT)` standard.
-- **Write clean code,** applying the methods learned in the book [Clean code](https://www.amazon.fr/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-- **Test driven development**
+- **[PythonOOP](https://github.com/axelearning/REST-authentication-API/tree/master/authentication)**, write clean object oriented code according to some key principles
+- **[Test-driven development](https://github.com/axelearning/REST-authentication-API/tree/master/tests/tests_authentication)**, a set of unit tests used for the API development
 <br>
 
 ## Why this project?
